@@ -261,7 +261,7 @@ with st.sidebar:
         min_value=min_date,
         max_value=max_date,
         value=[min_date, max_date],
-        key='data_filter'
+        key='date_filter'
     )
 
 # Filter dataframe utama berdasarkan input tanggal
