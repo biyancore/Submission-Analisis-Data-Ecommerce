@@ -260,7 +260,8 @@ with st.sidebar:
         label='Rentang Waktu Pesanan',
         min_value=min_date,
         max_value=max_date,
-        value=[min_date, max_date]
+        value=[min_date, max_date],
+        key='data_filter'
     )
 
 # Filter dataframe utama berdasarkan input tanggal
