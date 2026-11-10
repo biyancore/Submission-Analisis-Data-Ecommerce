@@ -40,7 +40,7 @@ def create_rfm_df(df):
 def load_data():
     # Menangani kemungkinan perbedaan path saat di-deploy vs di-run lokal
     try:
-        df = pd.read_csv("dashboard/main_data.csv")
+        df = pd.read_csv("Dashboard/main_data.csv")
     except FileNotFoundError:
         df = pd.read_csv("main_data.csv")
     
